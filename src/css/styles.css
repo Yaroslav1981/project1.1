@@ -782,7 +782,7 @@ p {
   height: 64px;
   top: 50%;
   left: 50%;
-  background: #fff url("/public/images/loupe.svg") no-repeat 50% 50%;
+  background: #fff url("/loupe.svg") no-repeat 50% 50%;
   transform: translate(-50%, -50%);
   transition: all 1s;
   opacity: 0;
