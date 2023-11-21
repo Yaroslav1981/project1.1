@@ -1,5 +1,5 @@
 //import '../scss/style.scss';
-import '../css/styles.min.css';
+//import '../css/styles.min.css';
 let accordions = document.querySelectorAll('.accordion__item');
 console.log(accordions);
 
