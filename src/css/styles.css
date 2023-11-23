@@ -2,6 +2,12 @@
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
+  top: 80px;
+}
+@media (max-width: 575px) {
+  body {
+    top: 40px;
+  }
 }
 
 a {
@@ -230,7 +236,12 @@ p {
 }
 
 .section-header {
-  position: relative;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  background-color: #fff;
 }
 
 .main-navigation {
