@@ -1185,7 +1185,7 @@ p {
 
 .section-started {
   background-color: #6888FF;
-  background-image: url("/public/images/getstarted.png");
+  background-image: url("../../public/images/getstarted.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: 50% 50%;
