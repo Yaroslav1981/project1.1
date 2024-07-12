@@ -938,7 +938,7 @@ h5{
                             height: $base*16;
                             top: 50%;
                             left: 50%;
-                            background: #fff url("../public/favicon/loupe.svg") no-repeat 50% 50% !important;
+                            background: #fff url("../../public/favicon/loupe.svg") no-repeat 50% 50% !important;
                             transform: translate(-50%,-50%);
                             transition: all 1s;
                             opacity: 0;
@@ -1089,6 +1089,7 @@ h5{
        }
        }
        .quotes-slider-wrapper{
+        
         min-width: 50%;
       
         .quotes-slider{
@@ -1107,9 +1108,13 @@ h5{
            }
            
             &__item{
+                display: flex;
+                flex-direction: row-reverse;
                 box-sizing: border-box;
                 position: relative;
-                padding:  $base*10 $base*17;
+                padding:  $base*10 0;
+                align-items: center;
+                justify-content: space-evenly;
                 
                 background: #fff;
                 @media(max-width:$bootstrap-max-sm) {
@@ -1119,16 +1124,17 @@ h5{
                     color: #676F95;
                     font-size: $base*3+2px;
                     margin: 0;
+                    width: 50%;
+                    
                 }
                 &-photo{
-                    bottom: 0;
-                    left: 50%;
-                    position: absolute;
+                  width: 20%;
                     width: $base*16-2px;
                     height: $base*16-2px;
-                    border-radius: 100%;
-                    background: url("/public/images/quotes-photo.png") no-repeat 50% 50% ;
-                    transform: translate(-50%,110%);
+                    border-radius: 50%;
+                    background: url("../../public/images/quotes-photo.png") no-repeat 50% 50% ;
+                    
+                    z-index: 100 !important;
                 }
             }
         }
