@@ -1118,6 +1118,9 @@ h5{
                 
                 background: #fff;
                 @media(max-width:$bootstrap-max-sm) {
+                    flex-direction: column-reverse;
+                    justify-content: center;
+    
                     padding:  $base*7 $base*13;
                }
                 &-text{
@@ -1125,6 +1128,11 @@ h5{
                     font-size: $base*3+2px;
                     margin: 0;
                     width: 50%;
+                    @media(max-width:$bootstrap-max-sm) {
+                        margin-top: $base*5;
+                        width: 100%;
+                        text-align: center;
+                   }
                     
                 }
                 &-photo{

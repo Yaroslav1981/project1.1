@@ -1040,6 +1040,8 @@ p {
 }
 @media (max-width: 575px) {
   .section-quotes .section-inner .quotes-slider-wrapper .quotes-slider__item {
+    flex-direction: column-reverse;
+    justify-content: center;
     padding: 28px 52px;
   }
 }
@@ -1048,6 +1050,13 @@ p {
   font-size: 14px;
   margin: 0;
   width: 50%;
+}
+@media (max-width: 575px) {
+  .section-quotes .section-inner .quotes-slider-wrapper .quotes-slider__item-text {
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+  }
 }
 .section-quotes .section-inner .quotes-slider-wrapper .quotes-slider__item-photo {
   width: 20%;
